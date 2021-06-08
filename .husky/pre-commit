@@ -1,5 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn lint-staged # Replace "yarn type-check && yarn lint-fix ."
-#npm run type-check && npm run lint-fix
+#yarn lint-staged # Replace "yarn type-check && yarn lint-fix ."
+npm run pre-commit # npm run type-check && npm run lint-fix

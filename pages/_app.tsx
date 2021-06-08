@@ -1,8 +1,8 @@
-import type { AppProps } from 'next/app'
-import { NextPage } from 'next'
+import type { AppProps } from "next/app";
+import { FC } from "react";
 
-const MyApp = ({ Component, pageProps }: AppProps) => {
-  return <Component {...pageProps} />
-}
+const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
+  return <Component {...pageProps} />;
+};
 
-export default MyApp
+export default MyApp;
