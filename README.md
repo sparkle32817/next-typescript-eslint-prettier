@@ -13,7 +13,8 @@ yarn add --dev prettier eslint-plugin-prettier eslint-config-prettier
 npm install --save-dev prettier eslint-plugin-prettier eslint-config-prettier
 
 # Setup husky.
-npm install --save dev
+yarn add --dev husky
+npm install --save-dev husky
 
 # Setup lint-staged
 npm install --save-dev lint-staged
